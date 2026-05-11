@@ -96,7 +96,7 @@ https://www.kaggle.com/code/bkhedi/unsloth-qween3-8b
 
 ## Gemma 4 E4B Fine-Tuning Notebook
 Kaggle:
-https://www.kaggle.com/code/bkhedi/gemma4-e4b/edit
+[https://www.kaggle.com/code/bkhedi/gemma4-e4b/edit](https://www.kaggle.com/code/bkhedi/gemma4-e4b)
 
 ---
 
