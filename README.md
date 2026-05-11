@@ -100,7 +100,7 @@ https://www.kaggle.com/code/bkhedi/gemma4-e4b/edit
 
 ---
 
-# ⚙️ Technologies Used
+# Technologies Used
 
 - Unsloth
 - Hugging Face Transformers
