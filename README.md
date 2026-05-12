@@ -100,7 +100,7 @@ Two training configurations are available:
 ## 🔹 Gemma 4 E4B Models
 
 Fine-tuned versions of the Gemma 4 E4B model on Tunisian Law datasets.  
-Two training configurations are available for only **3 Epochs** which is more better tha 2 epohcs 
+One  training configurations are available for only **3 Epochs** which is more better tha 2 epohcs 
 
 ---
 
