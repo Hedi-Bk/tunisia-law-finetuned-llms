@@ -54,49 +54,98 @@ Example capabilities include:
 
 ---
 
-#  Models
+# Models
 
 ## 🔹 Qwen3 8B Models
 
-### LoRA Adapter
-- Hugging Face:
-  https://huggingface.co/Hedi-Bk/qwen3_8B-tunisian-law-lora
+Fine-tuned versions of the Qwen3 8B model on Tunisian Law datasets.  
+Two training configurations are available:
+- **2 Epochs**
+- **3 Epochs**
 
-### GGUF Quantized Version
-- Hugging Face:
-  https://huggingface.co/Hedi-Bk/qwen3_8B-tunisian-law-gguf
+---
 
-### vLLM Version
-- Hugging Face:
-  https://huggingface.co/Hedi-Bk/qwen3_8B-tunisian-law-vllm
+### 🔸 Qwen3 8B — 2 Epochs
+
+#### LoRA Adapter
+- Hugging Face:  
+  [Hedi-Bk/qwen3_8B-tunisian-law-lora-2epochs](https://huggingface.co/Hedi-Bk/qwen3_8B-tunisian-law-lora-2epochs?utm_source=chatgpt.com)
+
+#### GGUF Quantized Version
+- Hugging Face:  
+  [Hedi-Bk/qwen3_8B-tunisian-law-gguf-2-epochs](https://huggingface.co/Hedi-Bk/qwen3_8B-tunisian-law-gguf-2-epochs?utm_source=chatgpt.com)
+
+#### vLLM Version
+- Hugging Face:  
+  [Hedi-Bk/qwen3_8B-tunisian-law-vllm-2epochs](https://huggingface.co/Hedi-Bk/qwen3_8B-tunisian-law-vllm-2epochs?utm_source=chatgpt.com)
+
+---
+
+### 🔸 Qwen3 8B — 3 Epochs
+
+#### LoRA Adapter
+- Hugging Face:  
+  [Hedi-Bk/qwen3_8B-tunisian-law-lora-3epochs](https://huggingface.co/Hedi-Bk/qwen3_8B-tunisian-law-lora-3epochs?utm_source=chatgpt.com)
+
+#### GGUF Quantized Version
+- Hugging Face:  
+  [Hedi-Bk/qwen3_8B-tunisian-law-gguf-3epochs](https://huggingface.co/Hedi-Bk/qwen3_8B-tunisian-law-gguf-3epochs?utm_source=chatgpt.com)
+
+#### vLLM Version
+- Hugging Face:  
+  [Hedi-Bk/qwen3_8B-tunisian-law-vllm-3epochs](https://huggingface.co/Hedi-Bk/qwen3_8B-tunisian-law-vllm-3epochs?utm_source=chatgpt.com)
 
 ---
 
 ## 🔹 Gemma 4 E4B Models
 
-### LoRA Adapter
-- Hugging Face:
-  https://huggingface.co/Hedi-Bk/gemma4-E4B-tunisian-law-lora
-
-### GGUF Quantized Version
-- Hugging Face:
-  https://huggingface.co/Hedi-Bk/gemma4-E4B-tunisian-law-gguf
-
-### vLLM Version
-- Hugging Face:
-  https://huggingface.co/Hedi-Bk/gemma4-E4B-tunisian-law-vllm
+Fine-tuned versions of the Gemma 4 E4B model on Tunisian Law datasets.  
+Two training configurations are available:
+- **2 Epochs**
+- **3 Epochs**
 
 ---
+
+### 🔸 Gemma 4 E4B — 2 Epochs
+
+#### LoRA Adapter
+- Hugging Face:  
+  [Hedi-Bk/gemma4-E4B-tunisian-law-lora-2epochs](https://huggingface.co/Hedi-Bk/gemma4-E4B-tunisian-law-lora-2epochs?utm_source=chatgpt.com)
+
+#### GGUF Quantized Version
+- Hugging Face:  
+  [Hedi-Bk/gemma4-E4B-tunisian-law-gguf-2epochs](https://huggingface.co/Hedi-Bk/gemma4-E4B-tunisian-law-gguf-2epochs?utm_source=chatgpt.com)
+
+#### vLLM Version
+- Hugging Face:  
+  [Hedi-Bk/gemma4-E4B-tunisian-law-vllm-2epochs](https://huggingface.co/Hedi-Bk/gemma4-E4B-tunisian-law-vllm-2epochs?utm_source=chatgpt.com)
+
+---
+
+### 🔸 Gemma 4 E4B — 3 Epochs
+
+#### LoRA Adapter
+- Hugging Face:  
+  [Hedi-Bk/gemma4-E4B-tunisian-law-lora-3epochs](https://huggingface.co/Hedi-Bk/gemma4-E4B-tunisian-law-lora-3epochs?utm_source=chatgpt.com)
+
+#### GGUF Quantized Version
+- Hugging Face:  
+  [Hedi-Bk/gemma4-E4B-tunisian-law-gguf-3epochs](https://huggingface.co/Hedi-Bk/gemma4-E4B-tunisian-law-gguf-3epochs?utm_source=chatgpt.com)
+
+#### vLLM Version
+- Hugging Face:  
+  [Hedi-Bk/gemma4-E4B-tunisian-law-vllm-3epochs](https://huggingface.co/Hedi-Bk/gemma4-E4B-tunisian-law-vllm-3epochs?utm_source=chatgpt.com)
+
 
 #  Fine-Tuning Notebooks
 
 ## Qwen3 8B Fine-Tuning Notebook
 Kaggle:
-https://www.kaggle.com/code/bkhedi/unsloth-qween3-8b
-
+[https://www.kaggle.com/code/bkhedi/unsloth-qween3-8b
+](https://www.kaggle.com/code/bkhedi/qween3-8b-3epochs)
 ## Gemma 4 E4B Fine-Tuning Notebook
 Kaggle:
-[https://www.kaggle.com/code/bkhedi/gemma4-e4b/edit](https://www.kaggle.com/code/bkhedi/gemma4-e4b)
+https://www.kaggle.com/code/bkhedi/gemma4-e4b-3epochs
 
 ---
 
