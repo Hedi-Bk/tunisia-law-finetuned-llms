@@ -97,24 +97,37 @@ Two training configurations are available:
 
 ---
 
-## 🔹 Gemma 4 E4B Models
+## **🔹 Gemma 4 E4B Models**
 
-Fine-tuned versions of the Gemma 4 E4B model on Tunisian Law datasets.  
-One  training configurations is available for only **3 Epochs** which is more better than 2 epohcs 
+Fine-tuned versions of the Gemma 4 E4B model on Tunisian Law datasets.
+
+Two training configurations are available: **2 Epochs** and **3 Epochs**.
+
+> **Important note:** Although a 3-epoch version was trained, we found that **2 epochs are largely sufficient**. Indeed, the final loss after 2 epochs was already very low (**0.1075**). Pushing for even lower loss would significantly increase the risk of **overfitting**. Therefore, we chose to stop at 2 epochs for a better balance between performance and generalization.
+> 
 
 ---
 
-### 🔸 Gemma 4 E4B — 3 Epochs
+### **🔸 Gemma 4 E4B — 2 Epochs (Only)**
 
-#### LoRA Adapter
-- Hugging Face:  
-Soon
-#### GGUF Quantized Version
-- Hugging Face:  
-Soonn
-#### vLLM Version
-- Hugging Face:  
-Soon
+### **LoRA Adapter**
+
+- **Hugging Face:** [Hedi-Bk/gemma-4b-tunisian-law-lora-2epochs](https://huggingface.co/Hedi-Bk/gemma-4b-tunisian-law-lora-2epochs)
+    
+    *(Updated 18 minutes ago)*
+    
+
+### **GGUF Quantized Version**
+
+- **Hugging Face:** [Hedi-Bk/gemma-4b-tunisian-law-gguf-2epochs](https://huggingface.co/Hedi-Bk/gemma-4b-tunisian-law-gguf-2epochs)
+    
+    *(Updated 19 minutes ago)*
+    
+
+### **vLLM Version**
+
+- **Hugging Face:** [Hedi-Bk/gemma-4b-tunisian-law-vllm-2epochs](https://huggingface.co/Hedi-Bk/gemma-4b-tunisian-law-vllm-2epochs)
+
 
 #  Fine-Tuning Notebooks
 
