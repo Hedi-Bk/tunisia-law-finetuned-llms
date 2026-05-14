@@ -145,7 +145,7 @@ https://www.kaggle.com/code/bkhedi/gemma4-e4b-3epochs
 
 - Unsloth
 - Hugging Face Transformers
-- PEFT / LoRA
+- PEFT : QLoRA
 - Ollama
 - Kaggle
 - GGUF Quantization
