@@ -28,7 +28,6 @@ The goal of these Tunisian Law SLMs is to enable:
 - Tunisian legal document understanding
 - Arabic/French/Derja legal reasoning
 - Efficient local inference using GGUF
-- Scalable inference using vLLM
 - Lightweight legal AI systems deployable on consumer hardware
 
 ---
