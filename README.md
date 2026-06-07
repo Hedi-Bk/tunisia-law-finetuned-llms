@@ -132,6 +132,9 @@ Le modèle Qwen3 a été réentraîné car l'entraînement initial utilisait un 
 - [Hedi-Bk/qwen3_8B-tunisian-law-lora-CORRECTION-3epochs](https://huggingface.co/Hedi-Bk/qwen3_8B-tunisian-law-lora-CORRECTION-3epochs)
 - [Hedi-Bk/qwen3_8B-tunisian-law-gguf-CORRECTION-3epochs](https://huggingface.co/Hedi-Bk/qwen3_8B-tunisian-law-gguf-CORRECTION-3epochs)
 
+  > **Note :** Même après cette correction, le modèle adopte un comportement bizarre : il répète "Je suis un Assistant Juridique, je suis un Assistant Juridique, je suis un Assistant Juridique..." en boucle. Cela est probablement dû à la quantification QLoRA.
+
+
 #  Fine-Tuning Notebooks
 
 ## Qwen3 8B Fine-Tuning Notebook
