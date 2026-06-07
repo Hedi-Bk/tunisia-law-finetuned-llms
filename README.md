@@ -58,63 +58,63 @@ Example capabilities include:
 
 ## 🔹 Qwen3 8B Models
 
-Versions fine-tuned du modèle Qwen3 8B sur des datasets de droit tunisien.  
-Deux configurations d'entraînement sont disponibles :
-- **2 époques**
-- **3 époques**
+Fine-tuned versions of the Qwen3 8B model on Tunisian Law datasets.  
+Two training configurations are available:
+- **2 epochs**
+- **3 epochs**
 
 ---
 
-### 🔸 Qwen3 8B — 2 époques
+### 🔸 Qwen3 8B — 2 epochs
 
 #### LoRA Adapter
-- Hugging Face :  
+- Hugging Face:  
   [Hedi-Bk/qwen3_8B-tunisian-law-lora-2epochs](https://huggingface.co/Hedi-Bk/qwen3_8B-tunisian-law-lora-2epochs?utm_source=chatgpt.com)
 
 #### GGUF Quantized Version
-- Hugging Face :  
+- Hugging Face:  
   [Hedi-Bk/qwen3_8B-tunisian-law-gguf-2-epochs](https://huggingface.co/Hedi-Bk/qwen3_8B-tunisian-law-gguf-2-epochs?utm_source=chatgpt.com)
 
 ---
 
-### 🔸 Qwen3 8B — 3 époques
+### 🔸 Qwen3 8B — 3 epochs
 
 #### LoRA Adapter
-- Hugging Face :  
+- Hugging Face:  
   [Hedi-Bk/qwen3_8B-tunisian-law-lora-3epochs](https://huggingface.co/Hedi-Bk/qwen3_8B-tunisian-law-lora-3epochs?utm_source=chatgpt.com)
 
 #### GGUF Quantized Version
-- Hugging Face :  
+- Hugging Face:  
   [Hedi-Bk/qwen3_8B-tunisian-law-gguf-3epochs](https://huggingface.co/Hedi-Bk/qwen3_8B-tunisian-law-gguf-3epochs?utm_source=chatgpt.com)
 
 ---
 
 ## **🔹 Gemma 4B Models**
 
-Versions fine-tuned du modèle Gemma 4B sur des datasets de droit tunisien.
+Fine-tuned versions of the Gemma 4B model on Tunisian Law datasets.
 
-> **Note importante :** Bien qu'une version à 3 époques ait été entraînée, nous avons constaté que **2 époques sont largement suffisantes**. En effet, la perte finale après 2 époques était déjà très faible (**0.1075**). Chercher une perte encore plus faible augmenterait significativement le risque de **surapprentissage (overfitting)**. Nous avons donc choisi de nous arrêter à 2 époques pour un meilleur équilibre entre performance et généralisation.
+> **Important note:** Although a 3-epoch version was trained, we found that **2 epochs are largely sufficient**. Indeed, the final loss after 2 epochs was already very low (**0.1075**). Pushing for even lower loss would significantly increase the risk of **overfitting**. Therefore, we chose to stop at 2 epochs for a better balance between performance and generalization.
 
 ---
 
-### **🔸 Gemma 4B — 2 époques (uniquement)**
+### **🔸 Gemma 4B — 2 epochs (Only)**
 
 ### **LoRA Adapter**
 
-- **Hugging Face :** [Hedi-Bk/gemma-4b-tunisian-law-lora-2epochs](https://huggingface.co/Hedi-Bk/gemma-4b-tunisian-law-lora-2epochs)
+- **Hugging Face:** [Hedi-Bk/gemma-4b-tunisian-law-lora-2epochs](https://huggingface.co/Hedi-Bk/gemma-4b-tunisian-law-lora-2epochs)
 
 ### **GGUF Quantized Version**
 
-- **Hugging Face :** [Hedi-Bk/gemma-4b-tunisian-law-gguf-2epochs](https://huggingface.co/Hedi-Bk/gemma-4b-tunisian-law-gguf-2epochs)
+- **Hugging Face:** [Hedi-Bk/gemma-4b-tunisian-law-gguf-2epochs](https://huggingface.co/Hedi-Bk/gemma-4b-tunisian-law-gguf-2epochs)
 
 ---
 
-## Résumé
+## Summary
 
-- **Qwen3 8B** : versions LoRA et GGUF (2 et 3 époques)
-- **Gemma 4B** : versions LoRA et GGUF (2 époques)
+- **Qwen3 8B** : LoRA and GGUF versions (2 and 3 epochs)
+- **Gemma 4B** : LoRA and GGUF versions (2 epochs)
 
-Ces modèles sont disponibles publiquement aux adresses suivantes :
+These models are publicly available at the following addresses:
 
 - https://huggingface.co/Hedi-Bk/qwen3_8B-tunisian-law-lora-2epochs
 - https://huggingface.co/Hedi-Bk/qwen3_8B-tunisian-law-lora-3epochs
@@ -124,16 +124,15 @@ Ces modèles sont disponibles publiquement aux adresses suivantes :
 
 ---
 
-## 🔧 Correction : Réentraînement de Qwen3
+## 🔧 Correction: Qwen3 Retraining
 
-Le modèle Qwen3 a été réentraîné car l'entraînement initial utilisait un mauvais chat template (pas celui de Qwen3). Les versions corrigées sont disponibles ci-dessous :
+The Qwen3 model was retrained because the initial training used the wrong chat template (not the Qwen3 one). The corrected versions are available below:
 
 - [Hedi-Bk/qwen3-8b-tunisian-law-lora-CORRECTION-2epochs](https://huggingface.co/Hedi-Bk/qwen3-8b-tunisian-law-lora-CORRECTION-2epochs)
 - [Hedi-Bk/qwen3_8B-tunisian-law-lora-CORRECTION-3epochs](https://huggingface.co/Hedi-Bk/qwen3_8B-tunisian-law-lora-CORRECTION-3epochs)
 - [Hedi-Bk/qwen3_8B-tunisian-law-gguf-CORRECTION-3epochs](https://huggingface.co/Hedi-Bk/qwen3_8B-tunisian-law-gguf-CORRECTION-3epochs)
 
-  > **Note :** Même après cette correction, le modèle adopte un comportement bizarre : il répète "Je suis un Assistant Juridique, je suis un Assistant Juridique, je suis un Assistant Juridique..." en boucle. Cela est probablement dû à la quantification QLoRA.
-
+> **Note:** Even after this correction, the model exhibits bizarre behavior: it keeps repeating "I am a Legal Assistant, I am a Legal Assistant, I am a Legal Assistant..." in a loop. This is likely due to QLoRA quantization.
 
 #  Fine-Tuning Notebooks
 
